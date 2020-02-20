@@ -1,0 +1,58 @@
+Siobhan Lynch
+COMD6336
+Homework Part 2 
+ 
+1)  For the addNum variable, the code is using an anonymous arrow function to get the sum of (num1 & num2).
+To do this you need to declare (const) and assign the anonymous arrow function. Inside the anonymous arrow function, declare variable (let num1) and assign the (document.getElementById(num1).value).
+This pulls the element from the HTML and the ID (num1). Using (input) element, you can get the (value) thats typed into the forms.  The (value) method allows this to happen.  We do the same thing for the value (num2) because it is another (input) element.  Now you make another variable (let) called (sum) which gets both numbers and adds them using (+) arithmetic operator.  To make this work we need to convert the input from a primitive data type string to a primitive data type number, so we use the function (parseInt()) to add the (let) variables (num1) & (num2).  To get the answer in the browser, we have to use the ID that has (document.getElementById("add_result")) and use property (.innerHTML) to change the HTML content
+without reloading the browser. The HTML content will change and reflect the sum of the values
+so we set (innerHTML = sum). Finally, to make the result button that reflects the sum work by calling the anonymous arrow function, you put the (onclick) attribute inside the button element.  
+
+2) helloTheremyNameisSiobhan
+	It works!
+  
+   CASH$MONEY_boi
+	It works!
+
+   ALERT_abundio!
+	It doesn't work :(
+
+
+3)
+	var x = 5
+	{var x = 10}
+	console.log(x)
+
+The result: 10
+Var was reassigned successfully and printed as 10 and not the initial 5.
+
+
+	
+	let a = 6
+	{let a = 25}
+	console.log(a)	
+
+The result: 6
+Let cannot be reassigned.
+
+
+	const color = "red";
+	{const color = "yellow"}
+	console.log(color)
+
+The result: red
+Const cannot be reassigned.
+
+
+
+4)
+Local scope Variables: variables that are defined within functions. They have local scope, which means that they can only be used within the functions that define them.
+	
+Function name(){
+var = 4;}
+
+Global scope Variables: variables that are defined outside of functions.  They have local scope, which means they can be used by any function without passing them to the function as parameters.
+
+Var = 3;
+Function name(){
+var = 4;}
