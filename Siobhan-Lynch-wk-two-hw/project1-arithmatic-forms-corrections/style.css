@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{background-color: rgb(250, 191, 255);}
+.form{
+	width:40%;
+	background-color: none;
+	border: 0px;
+	}
+fieldset{
+	border: 0;
+	}
