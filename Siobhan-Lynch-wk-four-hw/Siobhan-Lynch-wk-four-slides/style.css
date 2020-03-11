@@ -1,0 +1,54 @@
+body{background-color: lightcyan;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+h1 {
+    color:lightpink;
+    font-size: 50px;
+    }
+
+h3 {
+    color:hotpink;
+    font-size: 18px;
+    }
+
+.photo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    }
+
+#left, #right {
+    font-size: 25px;
+    color: red;
+    width: 8%;
+    border-radius: 35%;
+    }
+
+#left {
+    margin-top: 15px;
+    }
+
+#left {
+    background-color: lightyellow; 
+    color:goldenrod; 
+    transition-duration: 0.3s;
+    }
+  
+  #left:hover {
+    background-color: lightpink;
+    color: hotpink;
+    }
+
+  #right {
+    background-color: lightyellow; 
+    color: goldenrod; 
+    transition-duration: 0.3s; 
+    }
+  
+  #right:hover {
+    background-color: lightpink;
+    color: hotpink;
+    }
